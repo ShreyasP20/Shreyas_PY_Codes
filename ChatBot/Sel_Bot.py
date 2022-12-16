@@ -13,10 +13,10 @@ browser.maximize_window()
 
 browser.get('https://web.whatsapp.com/')
 
-with open('group', 'r', encoding='utf8') as f:
+with open('ChatBot\group.txt', 'r', encoding='utf8') as f:
     groups = [group.strip() for group in f.readlines()]
 
-with open('msg', 'r', encoding='utf8') as f:
+with open('E:\PY projects\Py\ChatBot\msg.txt ', 'r', encoding='utf8') as f:
     msg = f.read()
 
 for group in groups:
