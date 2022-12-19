@@ -7,7 +7,8 @@ import pyperclip
 import time
 
 browser = webdriver.Chrome(
-    executable_path='/Users/akjasim/chromedriver/chromedriver')
+    executable_path='C:\\Users\\Shreyas\\Appdata\\Local\\Google\\Chrome\\User Data\\Wtsp') 
+#LINUX:/Users/akjasim/chromedriver/chromedriver
 
 browser.maximize_window()
 
