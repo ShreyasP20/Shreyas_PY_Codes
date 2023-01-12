@@ -1,5 +1,3 @@
-
-
 class Reading:
     windspeed = input("Enter The Windspeed:")
     temperature = input("Enter The Temperature:")
