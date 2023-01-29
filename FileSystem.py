@@ -14,7 +14,7 @@ class Leaf:
         self.data = data
         self.read = False
         self.write = False
-        self.exec = False
+        self.exect = False
 
 
 def NewLeaf(key):
@@ -33,7 +33,7 @@ def NewFile(root, F_name):
         NewFile = NewLeaf(F_name)
         root.child.append(NewFile)
         print("File Permissions are:\nRead:{}  Write:{}  Execute:{} ".format(
-            NewFile.read, NewFile.write, NewFile.exec))
+            NewFile.read, NewFile.write, NewFile.exect))
         change = input(
             "Do you want to change File permissions? \n1.Read\n2.Write\n3.Execute\n4.None")
         if change == '1':
@@ -41,9 +41,9 @@ def NewFile(root, F_name):
         elif change == '2':
             NewFile.write = True
         elif change == '3':
-            NewFile.exec = True
+            NewFile.exect = True
         print("\nFile Permissions are:\nRead:{}  Write:{}  Execute:{} ".format(
-            NewFile.read, NewFile.write, NewFile.exec))
+            NewFile.read, NewFile.write, NewFile.exect))
         return
     else:
         print("Available directories are:")
