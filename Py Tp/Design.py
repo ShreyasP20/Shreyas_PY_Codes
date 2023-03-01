@@ -7,7 +7,7 @@ t.speed(0)
 n=36
 h=0
 t.goto(-60,0)
-for i in range(20):
+for i in range(100):
     c=colorsys.hsv_to_rgb(h,1,0.9)
     h +=1/n
     t.pencolor(c)
