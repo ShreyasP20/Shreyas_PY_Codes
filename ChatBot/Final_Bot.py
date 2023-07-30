@@ -55,4 +55,4 @@ def reminder():
         
 
 if __name__ == '__main__':
-    reminder();
+    reminder()
